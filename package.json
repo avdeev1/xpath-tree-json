@@ -1,0 +1,27 @@
+{
+  "name": "xpath-tree-json",
+  "version": "0.1.0",
+  "description": "Обход дерева по XPath запросу",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "rimraf lib",
+    "compile": "tsc",
+    "prepare": "npm run build",
+    "ci:build": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:avdeev1/xpath-tree-json.git"
+  },
+  "author": "Ivan Avdeev <avdeev.1van@icloud.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "rimraf": "3.0.0",
+    "xpath-analyzer": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "3.4.3"
+  }
+}
