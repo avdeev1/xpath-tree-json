@@ -9,7 +9,8 @@
     "clean": "rimraf lib",
     "compile": "tsc",
     "prepare": "npm run build",
-    "ci:build": "npm run build"
+    "ci:build": "npm run build",
+    "test": "mocha **/**.test.ts"
   },
   "repository": {
     "type": "git",
@@ -21,10 +22,14 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@types/mocha": "^8.0.0",
+    "@types/node": "^14.0.24",
     "rimraf": "3.0.0",
     "xpath-analyzer": "^3.0.0"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
     "typescript": "3.4.3"
   }
 }
