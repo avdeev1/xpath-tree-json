@@ -16,6 +16,7 @@
     "url": "git@github.com:avdeev1/xpath-tree-json.git"
   },
   "author": "Ivan Avdeev <avdeev.1van@icloud.com>",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "license": "UNLICENSED",
   "dependencies": {
     "rimraf": "3.0.0",
