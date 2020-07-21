@@ -1,5 +1,5 @@
 {
-  "name": "xpath-tree-json",
+  "name": "@avdeev1/xpath-tree-json",
   "version": "0.1.0",
   "description": "Searching nodes in tree by XPath query.",
   "main": "lib/index.js",
@@ -15,11 +15,11 @@
     "type": "git",
     "url": "git@github.com:avdeev1/xpath-tree-json.git"
   },
-  "author": "Ivan Avdeev <avdeev.1van@icloud.com>",
+  "author": "avdeev1 <avdeev.1van@icloud.com>",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
-  "license": "MIT License",
+  "license": "MIT",
   "dependencies": {
     "rimraf": "3.0.0",
     "xpath-analyzer": "^3.0.0"
