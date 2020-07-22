@@ -1,6 +1,6 @@
 {
   "name": "@avdeev1/xpath-tree-json",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Searching nodes in tree by XPath query.",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
