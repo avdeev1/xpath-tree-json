@@ -5,6 +5,7 @@
 /lib
 
 package-lock.json
+.npmrc
 
 # IDE - VSCode
 .vscode/*
