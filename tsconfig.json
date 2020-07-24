@@ -40,6 +40,6 @@
       "jsx": "react"
     },
     "include": [
-      "src/"
+      "src/index.ts"
     ]
   }
