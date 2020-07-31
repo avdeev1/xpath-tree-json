@@ -1,5 +1,6 @@
 # @avdeev1/xpath-tree-json
 Library for search nodes in document by XPath query.
+Developed in the fall of 2019 at Yandex during an internship.
 
 ---
 
@@ -7,12 +8,12 @@ Library for search nodes in document by XPath query.
 
 #### Install from the command line:
 ```bash
-$ npm install @avdeev1/xpath-tree-json@0.1.0
+$ npm install @avdeev1/xpath-tree-json@1.0.9
 ```
 
 #### Install via package.json:
 ```bash
-"@avdeev1/xpath-tree-json": "0.1.0"
+"@avdeev1/xpath-tree-json": "1.0.9"
 ```
 
 ---
