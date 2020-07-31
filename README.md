@@ -1,5 +1,5 @@
 # @avdeev1/xpath-tree-json
-Library for search nodes in document by XPath query.
+Library for search nodes in document by XPath query. <br>
 Developed in the fall of 2019 at Yandex during an internship.
 
 ---
